@@ -1,25 +1,16 @@
 <template>
   <div>
+    <TopNav />
     <nuxt />
   </div>
 </template>
 
-<style lang="scss">
-@import url('https://rsms.me/inter/inter.css');
-html {
-  font-family: 'Inter', sans-serif;
-}
-@supports (font-variation-settings: normal) {
-  html {
-    font-family: 'Inter var', sans-serif;
+<script>
+import TopNav from '~/components/TopNav'
+export default {
+  components: {
+    TopNav
   }
 }
-body {
-  background-color: $light-theme--background;
-  color: $accent--primary;
-}
-img {
-  max-width: 100%;
-  display: block;
-}
-</style>
+</script>
+<style lang="scss"></style>

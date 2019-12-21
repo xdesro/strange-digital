@@ -1,0 +1,26 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Inter', sans-serif;
+  font-size: 100%;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+body {
+  background-color: $light-theme--background;
+  color: $accent--primary;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+p {
+  line-height: 1.3;
+}

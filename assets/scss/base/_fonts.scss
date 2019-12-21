@@ -1,0 +1,15 @@
+@import url('https://rsms.me/inter/inter.css');
+
+@font-face {
+  font-family: 'Orelo';
+  src: url('~assets/fonts/orelotrial-standard-webfont.woff2') format('woff2'),
+    url('~assets/fonts/orelotrial-standard-webfont.woff') format('woff');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Orelo';
+  src: url('~assets/fonts/orelotrial-standarditalic-webfont.woff2')
+      format('woff2'),
+    url('~assets/fonts/orelotrial-standarditalic-webfont.woff') format('woff');
+  font-style: italic;
+}
