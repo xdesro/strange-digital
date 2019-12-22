@@ -21,11 +21,11 @@
       <FeaturedSite />
     </section>
     <section class="gallery">
+      <GallerySite v-for="site in sites" :key="site.id" :site="site" />
+      <!-- <GallerySite />
       <GallerySite />
       <GallerySite />
-      <GallerySite />
-      <GallerySite />
-      <GallerySite />
+      <GallerySite /> -->
     </section>
   </div>
 </template>
@@ -37,6 +37,11 @@ export default {
   components: {
     FeaturedSite,
     GallerySite
+  },
+  computed: {
+    sites() {
+      return this.$store.state.sites.list
+    }
   }
 }
 </script>

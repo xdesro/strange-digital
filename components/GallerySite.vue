@@ -6,15 +6,22 @@
         class="gallery-site__screenshot"
       />
       <div class="gallery-site-meta">
-        <p class="gallery-site-meta__title">Schick-toikka</p>
-        <p class="gallery-site-meta__link">schick-toikka.com</p>
+        <p class="gallery-site-meta__title">{{ site.name }}</p>
+        <p class="gallery-site-meta__link">{{ site.url }}</p>
       </div>
     </a>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    site: {
+      type: Object,
+      default: () => {}
+    }
+  }
+}
 </script>
 
 <style lang="scss">
