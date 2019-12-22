@@ -28,7 +28,7 @@ export default {
   // justify-items: end;
   justify-content: space-between;
   grid-auto-flow: column;
-  margin-block: 2.5rem;
+  padding-block: 2.5rem;
   &__brand {
     font-family: 'Orelo';
     font-size: 1.5rem;
