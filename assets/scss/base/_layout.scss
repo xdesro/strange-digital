@@ -14,8 +14,8 @@ html {
   }
 }
 body {
-  background-color: $light-theme--background;
-  color: $accent--primary;
+  background-color: $color__background;
+  color: $color__accent--primary;
 }
 img {
   max-width: 100%;
@@ -23,6 +23,13 @@ img {
 }
 p {
   line-height: 1.3;
+}
+a {
+  color: inherit;
+  text-decoration: underline;
+  &:hover {
+    // opacity: 0.8;
+  }
 }
 h1,
 h2,
@@ -73,7 +80,7 @@ h1 {
   p {
     font-size: 0.75rem;
     font-weight: 300;
-    color: $light-theme__text;
+    color: $color__text;
     margin-block-end: 1rem;
   }
 }

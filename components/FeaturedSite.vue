@@ -54,14 +54,14 @@ export default {}
   &__title {
     font-size: 1.5rem;
     font-weight: bold;
-    color: $light-theme__text;
+    color: $color__text;
     text-transform: uppercase;
   }
   &__url {
     grid-column: 1;
   }
   &__authorship {
-    color: $light-theme__text;
+    color: $color__text;
     text-align: right;
   }
   &__date {

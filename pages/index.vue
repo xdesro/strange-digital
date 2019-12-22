@@ -42,49 +42,19 @@ export default {
 </script>
 
 <style lang="scss">
-.page-header {
-  @include container;
-
-  display: grid;
-  margin-top: 3rem;
-  grid-auto-flow: column;
-  justify-content: space-between;
-  &__logo {
-    position: relative;
-    max-width: 29rem;
-    margin-left: -10vw;
-  }
-  &__title {
-    &-hidden {
-      position: absolute;
-      visibility: hidden;
-    }
-  }
-
-  &__subtitle {
-    font-weight: 500;
-    text-transform: uppercase;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 0.875rem;
-  }
-}
 .landing-hero {
   @include container;
   display: grid;
   grid-column-gap: 2.5rem;
   grid-template-columns: repeat(3, 1fr);
   align-items: end;
+  margin-top: 4rem;
   margin-bottom: 2.5rem;
 }
 .landing-description {
   font-weight: 300;
   font-size: 0.75rem;
-  color: $light-theme__text;
+  color: $color__text;
   margin-bottom: 4.25rem;
 }
 .gallery {
@@ -92,5 +62,6 @@ export default {
   display: grid;
   grid-gap: 2.5rem;
   grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 5rem;
 }
 </style>

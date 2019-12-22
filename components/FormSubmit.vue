@@ -135,12 +135,12 @@ export default {
     white-space: nowrap;
     font-size: 1rem;
     font-family: 'Orelo';
-    color: $light-theme__text;
+    color: $color__text;
   }
   &__button {
     display: block;
     background: none;
-    border: 1px solid $accent--primary;
+    border: 1px solid $color__accent--primary;
     width: 100%;
     font: inherit;
     color: inherit;
@@ -149,8 +149,8 @@ export default {
     font-weight: 700;
     cursor: pointer;
     &:hover {
-      background-color: $accent--primary;
-      color: $light-theme__background;
+      background-color: $color__accent--primary;
+      color: $color__background;
     }
   }
 }
@@ -184,7 +184,7 @@ export default {
     font-family: inherit;
     border: 0;
     background: none;
-    border-bottom: 1px solid $accent--primary;
+    border-bottom: 1px solid $color__accent--primary;
     &--textarea {
       height: 5rem;
     }

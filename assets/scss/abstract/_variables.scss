@@ -1,5 +1,18 @@
-$accent--primary: #b3937c;
-$light-theme__background: #f9f9f9;
-$light-theme__text: #000;
-
 $sizing__container: 65rem;
+
+html {
+  --color__text: #000;
+  --color__background: #f9f9f9;
+  --color__accent--primary: #b3937c;
+  &[dark] {
+    --color__text: #fff;
+    --color__background: #282828;
+    --filter__icon: invert(1);
+  }
+}
+
+$color__text: var(--color__text);
+$color__background: var(--color__background);
+$color__accent--primary: var(--color__accent--primary);
+
+$filter__icon: var(--filter__icon);

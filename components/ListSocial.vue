@@ -24,7 +24,7 @@
 .list-social {
   $social-svgs: ('github', 'twitter', 'email');
   font-size: 0.75rem;
-  color: $light-theme__text;
+  color: $color__text;
   &__link {
     color: inherit;
     text-decoration: none;
@@ -49,6 +49,7 @@
           background-image: url('../assets/icons/#{$social}.svg');
           background-size: contain;
           background-repeat: no-repeat;
+          filter: $filter__icon;
         }
       }
     }
